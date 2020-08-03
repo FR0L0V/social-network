@@ -1,0 +1,14 @@
+.nav{
+background-color:red;	
+width:20%;
+box-sizing:border-box;
+}
+
+.active{
+	color:green;
+}
+
+nav a{
+	text-decoration:none;
+	color:white;
+}

@@ -1,0 +1,21 @@
+.friend{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	align-items:center;
+	padding-bottom:10px;
+	border-right:1px solid black;
+}
+.friendPhoto{
+	width:40%;
+}
+
+.friendPhoto img{
+	display:block;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	border-radius:50%;
+	
+	
+}

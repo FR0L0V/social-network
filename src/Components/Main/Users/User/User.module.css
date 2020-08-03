@@ -1,0 +1,45 @@
+.user{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	margin-bottom:20px;
+}
+
+.userAction{
+	width:20%;
+	box-sizing:border-box;
+	padding:0px 10px;
+}
+
+.userPhoto{
+	width:50%;
+	margin:auto;
+}
+
+.userAction button{
+width:100%;
+
+text-align:center;
+}
+
+.userPhoto img{
+	width:100%;
+	border-radius:50%;
+}
+
+.userInfo{
+	width:60%;
+	border:1px solid black;
+	border-width:1px 0px 1px 1px;
+	box-sizing:border-box;
+	padding:10px;
+}
+
+.userLocation{
+	width:20%;
+	text-align:right;
+	border:1px solid black;
+	border-width:1px 1px 1px 0px;
+	box-sizing:border-box;
+	padding:10px;
+}

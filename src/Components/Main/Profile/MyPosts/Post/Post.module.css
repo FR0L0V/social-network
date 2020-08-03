@@ -1,0 +1,42 @@
+.post{
+	display:flex;
+	flex-direction:column;
+	margin-bottom:10px;
+	width:100%;
+	box-sizing:border-box;
+	border:1px solid black;
+	background-color:green;
+}
+
+.postContent{
+	width:100%;
+	box-sizing:border-box;
+	border:1px solid black;
+	
+	padding:20px;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.photo{
+	width:80px;
+	height:80px;
+	border:1px solid black;
+	border-radius:50%;
+	font-size:0;
+}
+
+.photo img{
+	width:100%;
+	height:100%;
+}
+
+.text{
+	width:70%;
+	border:1px solid black;
+	height:70px;
+}
+.like{
+	text-align:right;
+}
